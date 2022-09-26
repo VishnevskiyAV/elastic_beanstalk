@@ -4,9 +4,7 @@ env:
   EB_APPLICATION_NAME       : "My-app"
   EB_ENVIRONMENT_NAME       : "Myapp-env"
   DEPLOY_PACKAGE_NAME       : "python_app${{ github.sha }}.zip"
-  AWS_REGION_NAME           : "eu-east-1"
-  AWS_ACCESS_KEY            : ${{ secrets.AWS_ACCESS_KEY }}
-  AWS_SECRET_KEY            : ${{ secrets.AWS_SECRET_KEY }}
+  AWS_REGION_NAME           : "us-east-1"
 
 
 # Controls when the workflow will run
