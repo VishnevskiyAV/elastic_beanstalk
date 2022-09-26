@@ -3,7 +3,7 @@ env:
   EB_PACKAGE_S3_BUCKET_NAME : "my-app-python-cicd"
   EB_APPLICATION_NAME       : "My-app"
   EB_ENVIRONMENT_NAME       : "Myapp-env"
-  DEPLOY_PACKAGE_NAME       : "flusk_app${{ github.sha }}.zip"
+  DEPLOY_PACKAGE_NAME       : "Flask_app${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-east-1"
 
 
